@@ -1,0 +1,11 @@
+responder_pergunta_direito_social:
+  description: >
+    Responder perguntas relacionadas àos direitos sociais fundamentais com base nos arquivos em PDF e no arquivo PDF da constituição. Fornecer o direito relacionado à pergunta se preciso e explicar de forma clara e concisa o direito e seu fundamento.
+
+    Pergunta: 
+    {pergunta}
+
+  expected_output: >
+    Uma resposta precisa e bem estruturada, fundamentada nas leis da constituição e nos fundamentos do Direito Social. Se aplicável, citar a lei ou o direito presente na constituição.
+
+  agent: especialista_direito_social 
