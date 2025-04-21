@@ -14,7 +14,9 @@ dependencies = [
     "streamlit (>=1.44.1,<2.0.0)",
     "python-dotenv (>=1.1.0,<2.0.0)",
     "crewai[tools] (>=0.114.0,<0.115.0)",   
-    "langchain-openai (>=0.2.1,<0.3.0)"
+    "langchain-openai (>=0.2.1,<0.3.0)",
+    "pysqlite3-binary"
+
 ]
 
 
