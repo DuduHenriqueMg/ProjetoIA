@@ -45,6 +45,7 @@ class PlanejamentoCrew:
             tasks=[criar_plano_de_alimentacao, criar_plano_de_treinamento],
             process=Process.sequential,
             verbose=True,
+            disable_memory=True
         )
 
         crew.kickoff()
