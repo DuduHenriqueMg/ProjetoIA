@@ -1,7 +1,6 @@
 from crewai import Task
 from textwrap import dedent
 
-
 class TravelTasks:
     def __tip_section(self):
         return "Se você fizer um bom trabalho será recompensado com um bonûs de 5000 mil reais!"

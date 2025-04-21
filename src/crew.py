@@ -14,7 +14,6 @@ class PlanejamentoCrew:
         self.tempo_treinamento = tempo_treinamento
         self.esportes = esportes
         
-
     def run(self):
         # Define your custom agents and tasks in agents.py and tasks.py
         agents = TravelAgents()
@@ -81,7 +80,7 @@ if __name__ == "__main__":
     """)
     )
 
-    trip_crew = TripCrew(peso, exercicios, objetivo, imc)
+    trip_crew = PlanejamentoCrew(peso, exercicios, objetivo, imc)
     result = trip_crew.run()
     print("\n\n########################")
     print("## Here is you Trip Plan")
